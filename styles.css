@@ -1,0 +1,258 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+
+background-color: #E3867D;
+
+
+margin-top:   0px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;  
+} 
+
+body{
+    
+    background-color: #E3867D;
+    font-family: sans-serif;   
+}
+
+h1 h3 {
+    font-family: serif;
+}
+
+
+
+.topnav{
+   display: flex;
+   background-color:  #962E2A;
+   justify-content: space-between;
+   align-items: center;
+   top: 0;
+   width: 100%;
+}
+
+.leftnav {
+    color: #CEE6F2;
+    padding: 14px 16px;
+ }
+
+.rightnav a {
+    color: #CEE6F2;
+    float: left;
+   display: block;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   padding: 14px 16px;
+}
+
+
+
+
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+
+.pic{
+   border-radius: 50%; 
+   width: 20rem;
+   height: auto;
+   padding: 50px;
+   margin-left: 30px;
+   box-shadow: 5px 5px #CEE6F2;
+   
+
+}
+
+.intro{
+    padding-left: 20px;
+   height: 200px;
+   width: 300px;;
+   color: #CEE6F2;
+   text-align: center;
+     
+}
+.hello{
+   text-align: center;
+}
+
+
+.bio {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 0px;
+  margin-left: 80px;
+  width: 500px;
+  color: #CEE6F2;
+  border-top: #CEE6F2;
+} 
+  
+
+
+.journey {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.journey > div{
+    flex: 1;
+}
+
+.headings{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color: #CEE6F2;
+}
+.co{
+    margin-left: 50px;
+}  
+.st{
+    margin-left: 120px;
+} 
+
+.community {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    gap: .5em;
+   
+}
+
+.logo-container > div >img{
+    width:200px;
+    height: 200px;
+}
+
+
+
+
+  .strengths {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px; 
+    margin-top: 0px;
+    background-color:  #CEE6F2;
+    padding: 20px 20px;
+  }
+   
+  .strengths img {
+    width: 150px; 
+    height: auto; 
+    align-items: center;
+  } 
+
+.strengths {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+ .creativity{
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+ }
+
+ .tenacity{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+ }
+
+ .spirit{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+ }
+
+       
+     
+
+.ff{
+    color: #CEE6F2;
+    padding: 50px;
+    margin-right: 0px;
+  margin-left: 80px;
+}
+
+.fun-facts{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+   gap: 40px;
+   text-align: center;
+   background-color:  #CEE6F2;
+   padding: 30px;
+   color:  #962E2A;
+   margin-right: 0px;
+   margin-left: 80px;
+   flex-basis: auto;
+   flex-wrap: wrap;
+}
+
+.brooklyn-bridge, .cooking, .self{
+  flex: 1;
+ 
+}
+
+
+button{
+    background-color:  #962E2A;
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+    color: #CEE6F2;
+    margin: 50px;
+    font-size: 16px;
+   
+}
+.contact{
+    display:flex;
+  justify-content:center;
+
+
+}
+footer{
+  
+    color: #CEE6F2;
+    text-align: center;
+   
+}
+.author{
+    text-align: center;
+    padding-right: 30px;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+.designer {
+    text-align: end;
+    margin-top: 50px;
+}
