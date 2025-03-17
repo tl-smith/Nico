@@ -145,6 +145,8 @@ h1 h3 {
     grid-template-rows: 1fr 1fr;
     height: 100%;
     gap: .5em;
+    background-color:  #CEE6F2;
+    padding: 30px 30px;
    
 }
 
